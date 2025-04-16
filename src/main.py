@@ -1,3 +1,5 @@
+import sys
+print("Python path:", sys.path)
 import telebot
 import instaloader
 import random
