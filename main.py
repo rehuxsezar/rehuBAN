@@ -22,7 +22,7 @@ print("Environment variables loaded")
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 if not BOT_TOKEN:
     print("Warning: BOT_TOKEN not set in environment, using default for testing")
-    BOT_TOKEN = '8091678858:AAE4uGruO2eeCtQedN6BAIhn-Q-RaY9MXno'  # Default token for testing
+    BOT_TOKEN = '8000379658:AAE58ousBgvlSpD3zmRPb__bnVMQffUwWYk'  # Default token for testing
 bot = telebot.TeleBot(BOT_TOKEN)
 print("Bot initialized")
 
